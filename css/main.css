@@ -1,3 +1,31 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+  font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  overflow-x: hidden;
+}
+p{
+  font-size: 20px
+}
+p.small{
+  font-size: 16px
+}
+a,a.active,
+a:active,
+a:focus,
+
+a:hover{
+  color:#18bc9c;
+  outline:0
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Monserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  text-transform:uppercase;
+}
+hr.star-ligth,hr.star-primary{
+  max-width:250px;
+  margin:25px auto 30px;
+  padding:0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px
+}
